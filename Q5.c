@@ -1,0 +1,52 @@
+#include<stdio.h>
+
+
+ int main()
+ {
+ int a,b,c;
+ printf("Enter the number a= ");
+ scanf("%d",&a);
+ printf("Enter the number b= ");
+ scanf("%d",&b);
+ c=a+b;
+ printf("Sum of numbers c= %d\n",c);
+return 0;
+ }
+
+ 
+ int main()
+ {
+ int a,b,c;
+ printf("Enter the number a= ");
+ scanf("%d",&a);
+ printf("Enter the number b= ");
+ scanf("%d",&b);
+ c=a-b;
+ printf("Subtraction of numbers c= %d\n",c);
+return 0;
+ }
+
+  int main()
+ {
+ int a,b,c;
+ printf("Enter the number a= ");
+ scanf("%d",&a);
+ printf("Enter the number b= ");
+ scanf("%d",&b);
+ c=a*b;
+ printf("Multiplication of numbers c= %d\n",c);
+return 0;
+ }
+
+ 
+ int main()
+ {
+ float a,b,c;
+ printf("Enter the number a= ");
+ scanf("%f",&a);
+ printf("Enter the number b= ");
+ scanf("%f",&b);
+ c=a/b;
+ printf("Division of numbers c= %f\n",c);
+return 0;
+ }
